@@ -1,0 +1,538 @@
+.card-area{
+  padding: 10px;
+  align-items: center;
+  margin-top: 100px;
+}
+.card-exm{
+  display: inline-block;
+
+  border: 1px hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  width: fit-content;
+  margin: 21px;
+  text-align: center;
+  padding: 10px;
+
+
+
+  
+}
+.prod-card{
+ 
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 20px;
+  padding: 20px;
+
+
+
+}
+
+
+
+
+ .card-img-top{
+   max-width: 60%;
+    height: auto;
+    
+   
+    margin-bottom: 20px;
+}
+.card-btn{
+  background-color: rgb(143, 177, 143);
+  color: white;
+  font-size: x-large;
+  margin-inline-start: 10px;
+  border: 1px hsl(0, 0%, 80%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+}
+
+.go-cart{
+  text-decoration: none;
+  color: white;
+}
+.cart-price{
+  font-size: large;
+}
+.to-cart{
+  height: 60px;
+    position: absolute;
+    margin-right: 44px;
+    right: -10px;
+    padding-right: 10px;
+    align-items: center;
+
+}
+.to-cart #cart-imgcart{
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  padding-top: 0px;
+  padding-right: 16px;
+  margin-top: 10px;
+
+}
+/* .logo-container {
+  position: absolute;
+  top: 95px;
+}
+
+.wish-logo {
+  display: block;
+  width: 50px;
+  height: auto; 
+}
+.wish-list{
+  width: 40px;
+} */
+.wish-logo{
+ width: 37px;
+}
+.wish-list{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  top: 162px;
+  position:relative ;
+}
+ .cart-value{
+  width: 11px;
+  font-size: 1.01rem;
+  display: flex;
+  position: absolute;
+  right: 12px;
+    top: 18px;
+  overlay: inherit;
+  
+ 
+
+ 
+ 
+  color:#c20f0f
+  /* padding: 3px 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 36px;
+  margin-top: -112px;
+  */
+
+}
+
+
+.prod-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 380px;
+  margin-top: -345px;
+  font-size: 2rem;
+}
+
+.card-details{
+  width: 100%;
+}
+.prod-details{
+  display: contents;
+  font-size: 1.7rem;
+}
+.crd-css{
+  height: max-content;
+}
+.detail-img{
+  width: -webkit-fill-available;
+  display: flex;
+    padding-bottom: 0px;
+}
+.btn-det{
+  display: flex;
+  justify-content: center;
+}
+
+/* General styles for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styles for the dropdown toggle button */
+.dropdown-toggle {
+  background-color: #28a745; /* Success color */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: #218838; /* Darker success color on hover */
+}
+
+/* Styles for the dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+/* Show the dropdown menu on toggle active state */
+.dropdown.show .dropdown-menu {
+  display: block;
+}
+
+/* Styles for the dropdown items */
+.dropdown-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styles for the dropdown items with href links */
+.dropdown-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dropdown-item a:hover {
+  color: inherit;
+}
+.sort-button{
+  justify-content: center;
+  display: flex;
+}
+.sort-btn{
+  padding-right: 5px;
+}
+/* .card-style{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+
+/* hamburger */
+
+/* Hamburger Menu Button */
+.hamburger {
+  cursor: pointer;
+  width: 26px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.hamburger span {
+  background: rgb(252, 245, 245);
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 10px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+/* When the menu is active, change the lines to form an 'X' */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+.a-native-dropdown{
+  opacity: 1;
+    filter: alpha(opacity = 100);
+    z-index: auto;
+    position: static;
+    display: inline;
+    font-weight: normal;
+}
+.total-box{
+  width: 50%;
+  display: flex;
+  position: center;
+  
+}
+.buy-now{
+  display: flex;
+  justify-content: center;
+}
+.total-price{
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  
+}
+.profile{
+  left: 30px;
+}
+#pro-img{
+  left: -58px;
+    position: absolute;
+    width: 37px;
+    top: 3px;
+}
+#alert{
+  display: flex;
+  justify-content: center;
+
+
+  color: #a52929;
+
+
+}
+#cards-container{
+  display: flow;
+  padding-bottom: 37px;
+}
+.login-det{
+  width: 25%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overall container styling */
+.buy-now {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Total price styling */
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Payment dropdown container */
+.payment-css {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Select element styling */
+.payment-css select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* Paragraph below select styling */
+.payment-css p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+#cards-container1{
+  padding-top: 150px;
+  display: ruby-text;
+}
+
+/* .sort-button {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sort-button label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-button select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  cursor: pointer;
+} */
+
+/* styles.css */
+
+.sort-button {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: -21px; /* Distance from the top of the viewport */
+  left: 50%; /* Position it in the center horizontally */
+  transform: translateX(-50%); /* Center the element horizontally */
+  background-color: #fff; /* Background color for better visibility */
+  padding: 10px; /* Padding around the element */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.sort-button label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sort-button select {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* Remove default arrow for Safari */
+  -moz-appearance: none; /* Remove default arrow for Firefox */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.sort-button option {
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+  padding: 10px; /* Padding */
+}
+.back-btn{
+  background: none;
+  color: blue;
+
+}
+.log-out{
+  position: absolute;
+  display: flex;
+  right: 6px;
+ 
+  top: 5px;
+  padding: 3px;
+
+}
+.log-out-img{
+  width: 30px;
+  height: 30px;
+}
+.search-bar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.search-inp {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-inp:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search-inp::placeholder {
+  color: #aaa;
+}
+
+
+.top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  
+
+}
+.arrow-img{
+  width: 30px;
+}
+
+#cards-container4{
+  display: ruby-text;
+    padding-bottom: 37px;
+}
+
+
+/* cards */
+
+.container{
+  top: 54px;
+  position: relative;
+}
+.empty-wishlist-message {
+  margin-top: 110px;
+  text-align: center;
+  color: #555;
+}
+
+
+/*sign up*/
+.sign-up{
+  margin-top: 7rem;
+}
+.btn-12 {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.btn-12:hover {
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+

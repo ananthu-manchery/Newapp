@@ -1,0 +1,191 @@
+
+
+  .admin-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .header-title {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #2c3e50;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+    background-color: #2c3e50;
+  }
+  
+  .log-out {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .log-out p {
+    margin: 0;
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .log-out-img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .admin-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .admin-link {
+    margin: 0 10px;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .admin-link:hover {
+    background-color: #2980b9;
+  }
+  
+  .admin-view-products {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .back-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .page-title {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table thead.thead-dark {
+    background-color: #2c3e50;
+    color: white;
+  }
+  
+  .actions .btn {
+    margin-right: 5px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .add-product-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-product-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-product-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .add-product-form .form-group input,
+  .add-product-form .form-group textarea,
+  .add-product-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .add-product-form .form-group input[type="file"] {
+    padding: 5px;
+  }
+  
+  .add-product-form .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .add-product-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-form button:hover {
+    background-color: #218838;
+  }
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-bottom: 15px;
+  }
